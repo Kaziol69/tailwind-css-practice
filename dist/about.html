@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="text-gray-600 font-poppins">
+
+    <div class="grid md:grid-cols-5">
+        <div class="md:col-span-1 md:flex md:justify-end">
+            <nav class="text-right">
+                <div class="flex justify-between items-center">
+                    <h1 class="font-bold uppercase p-4 border-b border-gray-100">
+                        <a href="#" class="hover:text-gray-700">Russian Dishes</a>
+                    </h1>
+                    <div class="px-4 cursor-pointer md:hidden" id="burger">
+                        <svg class="w-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+                        </svg>
+                    </div>
+                </div>
+                <ul class="text-sm mt-6 hidden md:block" id="menu">
+                    <li class="text-gray-700 py-1">
+                        <a href="index.html" class="px-4 flex justify-end border-r-4 border-white">
+                            <span>Home</span>
+                            <svg class="w-5 ml-2" fill="none" stroke="currentColor" stroke-width="1.5"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="py-1 font-bold">
+                        <a href="about.html" class="px-4 flex justify-end border-r-4 border-primary">
+                            <span>About</span>
+                            <svg class="w-5 ml-2" fill="none" stroke="currentColor" stroke-width="1.5"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="py-1">
+                        <a href="contact.html" class="px-4 flex justify-end border-r-4 border-white">
+                            <span>Contact</span>
+                            <svg class="w-5 ml-4" fill="none" stroke="currentColor" stroke-width="1.5"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div> <!-- end nav -->
+
+        <main class="px-16 py-6 bg-gray-100 md:col-span-4">
+            <div class="flex justify-center md:justify-end">
+                <a href="#"
+                    class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500">Log
+                    in</a>
+                <a href="#"
+                    class="btn text-primary ml-2 border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500">Sign
+                    up</a>
+            </div>
+
+            <header>
+                <h2 class="text-gray-700 text-6xl font-semibold">About</h2>
+                <h3 class="text-2xl font-semibold">Get to know us!</h3>
+            </header>
+
+            <div>
+                <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Our vision</h4>
+
+                <div class="mt-8 grid lg:grid-cols-2">
+                    <!-- vision text -->
+                    <div class="text-black">
+                        <p>Welcome to "Russian Family Recipes," your trusted destination for experiencing the authentic
+                            flavors of homemade Russian meals. Step into our virtual kitchen and embark on a delightful
+                            journey through the rich culinary heritage of Russia. <br><br>
+
+                            At Russian Family Recipes, we are passionate about sharing the essence of Russian cooking
+                            with
+                            you. Our carefully curated collection of recipes showcases a diverse range of traditional
+                            favorites, from the iconic borscht, a hearty beet soup bursting with flavors and vibrant
+                            colors,
+                            to the aromatic plov, a fragrant rice pilaf infused with tender meat and spices, and the
+                            mouthwatering lagman, a noodle dish brimming with vegetables and savory meats.</p>
+                    </div>
+                    <div class="flex md:justify-end sm:justify-center">
+                        <img src="/img/company.jpg" alt="company" class="h-56 object-cover">
+                        <!--<img src="/img/borscht.jpg" alt="Borscht" class="w-full h-32 sm:h-48 object-cover"> -->
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Our mission</h4>
+
+                <div class="mt-8 grid lg:grid-cols-2">
+                    <!-- mission text -->
+                    <div class="flex md:justify-start sm:justify-center">
+                        <img src="/img/smile.jpg" alt="smile" class="h-80 object-cover">
+                    </div>
+                    <div class="text-black">
+                        <p class="pt-5 sm:pt-0 md:pt-0">
+                            At "Russian Family Recipes," our mission is to preserve and promote the cultural heritage of
+                            Russia through the art of homemade meals. We are dedicated to curating a collection of
+                            authentic recipes that capture the essence of Russian cuisine, allowing individuals to
+                            embark on a culinary journey filled with flavors, traditions, and family connections. <br><br>
+
+                            We believe that food is more than just sustenance; it is a gateway to culture, history, and
+                            identity. Through our carefully selected recipes, we aim to provide a glimpse into the
+                            diverse culinary landscape of Russia, showcasing dishes like borscht, plov, and lagman that
+                            have been enjoyed by generations of Russian families. <br><br>
+
+                            Our mission extends beyond sharing recipes. We strive to create an immersive experience
+                            where individuals can not only recreate the flavors of Russia but also understand the
+                            stories and customs behind each dish. From the origins of ingredients to the rituals
+                            surrounding family meals, we aim to foster a deeper appreciation and connection to Russian
+                            culture.</p>    
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
